@@ -43,5 +43,9 @@ puts secret3
 #if your line is longer than 80 chars/columns,
 #you don't know what's on that line
 
+array_to_string = secret3.join(" ")
+reverse_it = array_to_string.reverse
+replace_x = reverse_it.tr('x', "a")
+puts replace_x
 
 
